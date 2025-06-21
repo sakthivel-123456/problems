@@ -1,0 +1,19 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    float a,b,c;
+    cout<<"things one:";
+    cin>>a;
+    cout<<"things two:";
+    cin>>b;
+    cout<<"discount:";
+    cin>>c;
+    float totalamount=a+b;
+    float amountdiscount=totalamount*(c/100);
+    float amountsave=totalamount-amountdiscount;
+    cout<<fixed<<setprecision(3)<<totalamount<<endl;
+    cout<<fixed<<setprecision(3)<<amountdiscount<<endl;
+    cout<<fixed<<setprecision(3)<<amountsave;
+}

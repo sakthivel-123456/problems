@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int length,breath;
+    cout<<("");
+    cin>>length>>breath;
+    cout<<2*(length+breath)<<endl;
+    cout<<length+breath;
+}
